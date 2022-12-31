@@ -69,10 +69,6 @@ def spin():
     pick_number = random.randint(0,2)
     image_label.config(image = image_list[pick_number])
 
-    # 0 = Rock
-    # 1 = Paper
-    #2 = Scissors
-
     #Converting Dropdowns into Numbers
     if user_choice.get() == "Rock":
         choice_value = 0
